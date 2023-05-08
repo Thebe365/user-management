@@ -1,0 +1,54 @@
+<app-navigation></app-navigation>
+<div class="comp-cont">
+    <div class="container">
+        
+    <div class="inner-cont" >
+            <h2>Sign up</h2>
+        <form [formGroup]="form" (submit)="isEnabled()">
+            <div class="group-one row">
+                <div class="input-item col">
+                    <label for="">Name:</label><br>
+                    <input class="form-control" formControlName="name" type="text" placeholder="Enter name">
+                </div>
+                <div class="input-item col">
+                    <label for="">Last name:</label><br>
+                    <input class="form-control" formControlName="lastName"  type="text" placeholder="Enter last name">
+                </div>
+            </div>
+            
+            <div class="group-two row">
+                <div class="input-item col">
+                    <label for="">Email:</label><br>
+                    <input class="form-control" formControlName="email" type="email" placeholder="Enter email address">
+                </div>
+                <div class="input-item col">
+                    <label for="">Phone number:</label><br>
+                    <input class="form-control" formControlName="phoneNumber" type="text" max="10" placeholder="Enter phone number">
+                </div>
+            </div>
+            <div class="group-three row">
+                <div class="input-item col">
+                    <label for="">Password</label><br>
+                    <input formControlName="password" class="form-control" type="password" placeholder="Enter password">
+                </div>
+                <div class="input-item col">
+                    <label for="">Repeat password</label><br>
+                    <input formControlName="confPassword" class="form-control" type="password" placeholder="Repeat password">
+                </div>
+            </div>
+            <div class="input-item">
+                <button  [disabled]="!form.valid">Sign up</button>
+                {{form.valid}}
+            </div>
+            <pre>
+                {{ form.value | json }}
+            </pre>
+        </form>
+    </div>
+    
+    </div>
+</div>
+
+<dialog>
+    <h2>Ekse</h2>
+</dialog>

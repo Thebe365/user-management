@@ -1,0 +1,20 @@
+<app-navigation></app-navigation>
+<div class="comp-cont">
+    <div class="container">
+        <div class="inner-cont">
+            <h1>Login</h1>
+            <div class="input-item">
+                <label for="">Email address:</label><br>
+                <input type="text" placeholder="Enter email" (input)="emailInput($any($event.target).value)">
+            </div>
+            <div class="input-item">
+                <label for="">Password:</label><br>
+                <input type="password" placeholder="Enter pasword" (input)="passwordInput($any($event.target).value)">
+            </div>
+            <div class="input-item">
+                <button routerLink="dashboard">Login</button>
+                <a href="">Forgot password?</a>
+            </div>
+        </div>
+    </div>
+</div>

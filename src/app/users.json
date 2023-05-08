@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Thebe",
+        "lastName": "Tongwane",
+        "Age": 25,
+        "occupation": "Software developer",
+        "race": "African" 
+    },
+    {
+        "name": "David",
+        "lastName": "Graham",
+        "Age": 40,
+        "occupation": "Data scientist",
+        "race": "White"
+    },
+    {
+        "name": "Evan",
+        "lastName": "Grey",
+        "Age": 31,
+        "occupation": "Farmer",
+        "race": "Indian"
+    },
+    {
+        "name": "Jeffry",
+        "lastName": "Dahmer",
+        "Age": 26,
+        "occupation": "cannibal",
+        "race": "White"
+    }
+]

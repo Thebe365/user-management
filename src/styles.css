@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+@import "bootstrap/dist/css/bootstrap.css";
+
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: #f5f5f5; */
+}
+
+app-root{
+    font-family:'Source Sans Pro', sans-serif;
+    height: 100vh;
+    
+}

@@ -37,12 +37,9 @@
                 </div>
             </div>
             <div class="input-item">
-                <button  [disabled]="!form.valid">Sign up</button>
-                {{form.valid}}
+                <button [disabled]="!form.valid">Sign up</button>
             </div>
-            <pre>
-                {{ form.value | json }}
-            </pre>
+
         </form>
     </div>
     

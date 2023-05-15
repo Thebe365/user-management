@@ -83,7 +83,8 @@ export class SignInComponent {
 
     if(this.form.valid){
       console.log("data has been set")
-    }else{
+      console.log(this.form.value)
+    }else if(this.form.invalid){
       console.log("Has not not been set")
     }
   }

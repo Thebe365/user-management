@@ -55,4 +55,8 @@ input{
     width: auto;
 }
 
+[disabled="true"]{
+    background-color: grey;
+}
+
 
